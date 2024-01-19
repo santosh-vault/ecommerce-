@@ -12,11 +12,11 @@ const Navbar = () => {
 
     const navItems = [
         { title: 'Home', path: '/' },
-        { title: 'Clothing', path: '/clothing' },
-        { title: 'Accessories', path: '/accessories' },
-        { title: 'Arts', path: '/arts' },
-        { title: 'Tools', path: '/tools' },
-        { title: 'Furniture', path: '/furniture' },
+        { title: 'Clothing', path: '/' },
+        { title: 'Accessories', path: '/' },
+        { title: 'Arts', path: '/' },
+        { title: 'Tools', path: '/' },
+        { title: 'Furniture', path: '/' },
     ];
 
     return (
