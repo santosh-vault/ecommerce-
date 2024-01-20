@@ -3,6 +3,8 @@ import Navbar from './Components/Navbar'
 import Banner from './Pages/Home/Banner'
 import Category from './Pages/Home/Category'
 import Products from './Pages/Home/Products'
+import CollectionBanner from './Pages/Home/CollectionBanner'
+import Footer from './Components/Footer'
 
 const App = () => {
   return (
@@ -10,7 +12,9 @@ const App = () => {
       <Navbar />
       <Banner />
       <Category />
+      <CollectionBanner />
       <Products />
+      <Footer />
     </div>
   )
 }
