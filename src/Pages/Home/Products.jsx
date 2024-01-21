@@ -29,10 +29,10 @@ const Products = () => {
     fetchData();
   }, []);
 
-// Filter products by category
+
   const filteredProducts = selectedCategory === 'All' ? products : products.filter(product => product.category === selectedCategory);
 
-  // Sort products based on the selected sorting option
+
   const sortedProducts = [...filteredProducts].sort((a, b) => {
     if (selectedSortOption === 'A-Z') {
       return a.title.localeCompare(b.title);
